@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import {faCalendar} from '@fortawesome/free-solid-svg-icons';
+
 
 @Component({
   selector: 'app-formacion',
@@ -6,5 +8,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./formacion.component.css']
 })
 export class FormacionComponent {
-
+  faCalendar = faCalendar;
 }

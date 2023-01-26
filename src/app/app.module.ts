@@ -9,6 +9,7 @@ import { PortadaComponent } from './components/portada/portada.component';
 import { ProyectosComponent } from './components/proyectos/proyectos.component';
 import { SobremiComponent } from './components/sobremi/sobremi.component';
 import { TecnologiasComponent } from './components/tecnologias/tecnologias.component';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { TecnologiasComponent } from './components/tecnologias/tecnologias.compo
     TecnologiasComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    FontAwesomeModule
   ],
   providers: [],
   bootstrap: [AppComponent]
