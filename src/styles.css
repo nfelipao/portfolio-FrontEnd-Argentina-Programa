@@ -407,10 +407,14 @@ body{
 
 /* id sobre mi */
 
-@media screen and (max-width: 980px) {
+@media screen and (max-width: 1070px) {
     .machinew{
         display: none;
     }
+}
+
+@media screen and (max-width: 980px) {
+
     .container-hab{
         grid-template-columns: repeat(2, 1fr);
         padding: 2rem 50px;
